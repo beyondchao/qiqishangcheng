@@ -1,0 +1,15 @@
+/* pages/profile/profile.wxss */
+.avatar{
+  background-color:#c40000;
+  height:400rpx;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.avatar image{
+  height:190rpx;
+  width:190rpx;
+  border-radius:50%;
+  box-shadow: 0 0 40px 4px rgb(243, 239, 239);
+}

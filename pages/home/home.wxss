@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+.app-container swiper,.app-container swiper image{
+  height:392rpx;
+  width:130%;
+}
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+}
+.grid .navigator{
+  width:33.3333%;
+  height:200rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.2px 0.2px 0 #ccc;
+  font-size:14px;
+}
+.grid .navigator image{
+  width:102rpx;
+  height:102rpx;
+}
+

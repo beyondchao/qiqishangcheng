@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class='app-container'>
+  <swiper autoplay='true' circular='true' duration='500'>
+    <swiper-item wx:for="{{list}}" wx:key="index">
+      <image src="{{item.img_url}}" lazy-load mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+  <view class="grid">
+    <view class="navigator" wx:for="{{router}}" wx:key="index">
+      <image src="{{item.icon}}" lazy-load mode="aspectFill" bindtap="handleJump" data-id="{{item.id}}"></image>
+      <view>{{item.name}}</view>
+    </view>
+  </view>
+  <view class="divider"></view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/cat/cat.wxss *//* pages/shoplist/shoplist.wxss */
+view,text,page{margin:0;padding:0;}
+.app-container .shoplist{
+  display:flex;
+  border-bottom:1px solid #ccc;
+  position:relative;
+}
+.app-container .details{
+  position: relative;
+  font-size:14px;
+  width:55%;
+  color:#555;
+}
+/* 商品 */
+.app-container .details .shop-title{
+  font-size:14px;
+  color:#222;
+  padding: 4rpx;
+}
+.app-container .details .shop-price {
+  position: absolute;
+  bottom: 4rpx;
+  left: 4rpx;
+  color: #c40000;
+}
+.app-container .details view{
+  margin-bottom:3rpx;
+}
+.app-container .shoplist .img image{
+  width:150rpx;
+  height:150rpx;
+  margin:10rpx;
+}
+
+

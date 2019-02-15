@@ -1,0 +1,16 @@
+<!--pages/message/message.wxml-->
+<view class="app-container">
+  <view class='card' wx:for="{{messageList}}" wx:key="index">
+    <view class='card-item'>
+      <view class='card-head'>
+        <view class='card-title'>{{item.title}}</view>
+      </view>
+      <view class='card-date'>{{item.ctime}}</view>
+    </view>
+    <view class='card-item'>
+      <image class="card-img" src='{{item.img_url}}' lazy-load model='aspectFill'></image>
+      <view class="card-desc">{{item.desc1}}</view>
+    </view>
+    <view class='card-rad arrow'>查看详情</view>
+  </view>
+</view>

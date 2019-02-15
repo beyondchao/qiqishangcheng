@@ -1,0 +1,12 @@
+<!--pages/shoplist/shoplist.wxml-->
+<view class="app-container">
+  <view class="shoplist" wx:for="{{list}}" wx:key="index">
+    <view class="img">
+      <image src="{{item.imgUrl}}"></image>
+    </view>
+    <view class="details">
+      <view class='shop-title'>{{item.title}}</view>
+      <view class='shop-price'>￥{{item.price}}</view>
+    </view>
+  </view>
+</view>
